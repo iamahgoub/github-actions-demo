@@ -7,9 +7,6 @@ spec:
   suspend: false
   interval: 1m0s
   timeout: 15s
-  dependsOn:
-  - name: flux-system
-    namespace: flux-system
   path: ./apps/podinfo/ex07-dummy
   prune: true
   serviceAccountName: ex7
