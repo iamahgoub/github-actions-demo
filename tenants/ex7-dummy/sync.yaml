@@ -9,7 +9,6 @@ spec:
   timeout: 15s
   path: ./apps/podinfo/ex07-dummy
   prune: true
-  serviceAccountName: ex7
   sourceRef:
     kind: GitRepository
     name: flux-system
