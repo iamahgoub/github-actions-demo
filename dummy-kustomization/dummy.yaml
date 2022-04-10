@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 3m0s
-  path: ./dummy
+  path: ./apps/podinfo/ex07-dummy
   prune: true
   sourceRef:
     kind: GitRepository
