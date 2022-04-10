@@ -4,7 +4,6 @@ metadata:
   name: ex7
   namespace: flux-system
 spec:
-  suspend: false
   interval: 1m0s
   timeout: 15s
   path: ./apps/podinfo/ex07-dummy
